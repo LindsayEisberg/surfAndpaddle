@@ -150,6 +150,9 @@ section {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 9px;
   margin-top: 20px;
+  display:inline-block;
+
+
 }
 
 .postdate {
@@ -157,6 +160,8 @@ section {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 9px;
   text-decoration: underline;
+  diplay: inline;
+  margin-left: 5px;
 }
 
 
@@ -325,7 +330,7 @@ article a {
   bottom: 20px;
 }
 
-.popular_link:hover > a{
+.popular_link:hover h3 {
   color: white;
 }
 
@@ -412,8 +417,8 @@ article a {
   background-image: url('../photos/lower4.jpg');
   background-size: 300px 300px;
 
-}
 
+}
 
 
 
